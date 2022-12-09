@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/final-envirobot/static/css/main.846e7f15.css",
+    "main.js": "/final-envirobot/static/js/main.452bad25.js",
+    "static/js/787.1a2872be.chunk.js": "/final-envirobot/static/js/787.1a2872be.chunk.js",
+    "static/media/logo.jpg": "/final-envirobot/static/media/logo.fbe952405ae6e325475d.jpg",
+    "static/media/finall.jpg": "/final-envirobot/static/media/finall.9dc3a0256073454f96c6.jpg",
+    "static/media/logo.png": "/final-envirobot/static/media/logo.d8bed33f82140c914678.png",
+    "index.html": "/final-envirobot/index.html",
+    "main.846e7f15.css.map": "/final-envirobot/static/css/main.846e7f15.css.map",
+    "main.452bad25.js.map": "/final-envirobot/static/js/main.452bad25.js.map",
+    "787.1a2872be.chunk.js.map": "/final-envirobot/static/js/787.1a2872be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.846e7f15.css",
+    "static/js/main.452bad25.js"
+  ]
+}
