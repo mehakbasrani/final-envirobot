@@ -1,0 +1,55 @@
+@import "../../global.scss";
+
+.intro {
+  position: relative;
+  background-image: url("./finall.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw calc(100vh - 70px);
+}
+
+.intro::before {
+  content: "";
+  background-image: url("./finall.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw calc(100vh - 70px);
+  font-family: "EB Garamond", serif;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.slideIn {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-left: 10%;
+}
+
+div.slideIn h4 {
+  margin-top: 25%;
+  animation: 2s slide-right;
+  font-size: 40px;
+  @include mobile {
+    margin-top: 85%;
+  }
+}
+
+div.slideIn h2 {
+  animation: 3s slide-right;
+
+  font-size: 60px;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
